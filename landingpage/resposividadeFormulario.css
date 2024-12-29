@@ -1,0 +1,16 @@
+@media(max-width:680px){
+
+    #tituloForm{
+        font-size:24px;
+
+    }
+    .form{
+        width: 250px;
+        height:31px ;
+    }
+    ::placeholder{
+      font-size:12px;
+      color: rgb(124, 107, 107);
+    
+    }
+}

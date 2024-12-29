@@ -1,0 +1,42 @@
+    /* RESPOSIVIDADE INFORMÇÃO */
+    
+    /* Aqui não precisou estilizar os itens.Pois ficou resposivo no style.css usando o display grid. 
+    
+    ASSIM:  
+    
+    #informacao{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+    vamos estilizar só a font.
+*/
+
+
+@media(min-width:680px) and (max-width:880px){
+    .icone{
+        margin-left: 4px;
+        margin-right:2px;
+        width:20px;
+        height:20px;
+        
+    }
+    .palavras{
+        font-size: 16px;
+    }
+
+}
+@media(max-width:680px){
+
+    .palavras{
+        font-size:10px;
+        
+    }
+    .icone{
+        width:16px;
+        height:16px;
+        margin-left: 2px;
+        margin-right: 3px;
+    }
+}
+

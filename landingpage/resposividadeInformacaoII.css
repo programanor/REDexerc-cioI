@@ -1,0 +1,51 @@
+
+/* RESPOSIVIDADE DIV INFORMACAOII */
+
+@media(min-width:880px) and (max-width:980px){
+    #informacaoII{
+        display:flex;
+        display:inline-block;
+        
+    }
+   #video{
+    margin-left:220px;
+   }
+   #conteudo{
+    margin-left:270px
+   }
+
+   
+}
+@media(max-width:880px){
+    #video{
+    
+        width:100%;
+        margin:auto;
+        
+    }
+    #titulo2{
+        font-size: 18px;
+       
+    }
+
+    #texto2{
+        font-size:15px;
+    }
+   
+}
+@media(max-width:480px){
+  #informacaoII{
+    display: flex;
+    flex-direction: column;
+}
+#conteudo{
+    width:100%;
+    margin:8px;
+}
+
+
+}
+
+
+  
+

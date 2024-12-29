@@ -1,0 +1,187 @@
+
+/* STYLE BODY */
+*{
+    margin: 0px;
+    font-family:'inter';
+}
+
+/* STYLE DIV CABECALHO */
+#cabecalho{
+    color: rgb(255, 255, 255);
+    background-image: url(PASTAIMAG/imagemCabecalho.svg); 
+}
+
+#logo{
+    margin:30px;
+}
+
+#titulo1{
+    margin-top: 75px;
+    margin-left:100px;
+    
+}
+#texto1{
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+
+/* STYLE DIV INFORMACAO */
+
+#informacao{
+  background-color:#eaece5;
+
+}
+
+#informacao{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+
+.icone{
+    margin-left: 55px;
+    margin-right: 15px;
+}
+.palavras{
+
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size: 22px;
+}
+.palavras{
+    display:flex;
+    align-items:center;
+}
+#titulo2{
+    color: rgb(50, 50, 217);
+}
+/* STYLE DIV INFORMACAOII */
+
+#informacaoII{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+#video{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#conteudo{
+
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom:50px
+}
+
+/* STYLE DIV CARROSSEL */
+
+#carrossel{
+    background-color:  rgba(36, 123, 160, 1);
+    color:white;
+    text-align:center;
+}
+
+/* style da div cards */
+
+#tituloCarrossel{
+    padding:50px;
+}
+
+#cards{
+ display:grid;
+ grid-auto-flow:column;
+ columns:auto;
+ 
+}
+.card{
+    width:450px;
+    margin-left:30px;
+    padding-bottom:50px;
+}
+/* ocutação de tags seta esquerda */
+#setaEsquerda{      
+    display:none;
+  
+}
+#setaEsquerda{      
+    
+    margin-top:55%;
+    margin-left:26%;
+}
+
+
+
+#setaEsquerda{
+    cursor:pointer;
+    
+}
+
+#setaEsquerda:hover{
+    scale: 1.4;
+    transition: 0.5s;
+}
+
+#setaDireita{
+    cursor:pointer;
+}
+#setaDireita:hover{
+    scale:1.4;
+    transition:0.5s;
+}
+
+#setaDireita{      
+    
+    margin-top:26%;
+    
+}
+
+/* ocutação de tags cardBruna */
+#cardBruna{
+    display:none;
+}
+/* STYLE DIV FORMULARIO */
+#formulario{
+    background-color:white;
+    text-align:center;
+}
+#tituloForm{
+    font-size:32px;
+}
+.form{
+    background-color:rgb(221, 226, 231);
+    width:413px;
+    height:53px;
+    margin:20px 0px 12px 0px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+::placeholder{
+    padding:10px;
+    color: black;
+}
+#botao{
+    background-color:rgba(36, 123, 160, 1);
+    width:190px;
+    height:38px;
+    border:0px;
+    border-radius:12px;
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+    margin-bottom:70px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+#botao:hover{
+    background-color:rgba(20, 20, 228, 0.532);
+    box-shadow: 0px 10px 10px rgb(156, 156, 205);
+    color: rgb(87, 77, 77);
+    transform: translateY(-7);
+    transition-duration: 0.5s;
+
+}
+
+

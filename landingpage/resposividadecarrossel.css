@@ -1,0 +1,104 @@
+ /* RESPOSIVIDADE DIV CARDS */
+
+ @media(min-width:890px) and (max-width:1008px){
+
+    #cards{
+       margin:auto;
+       align-items: center;
+    }
+
+    .card{
+       width: 350px;
+    }
+    #setaEsquerda{
+        margin-top: 0.5%;
+        width:18px;
+    }
+    #setaDireita{
+        margin-top: 0.5%;
+        width:70px
+        
+    }
+ }
+
+ @media(max-width:890px){
+    #tituloCarrossel{
+        font-size:25px;
+    }
+
+    .card{
+        /* width:500px; */
+        width: 330px;
+    }
+    #cards{
+        /* display:flex;
+        flex-direction:column; */
+        align-items:center;
+    }
+    #setaEsquerda{
+        width:16px;
+        margin-top: 55%; 
+       
+    }
+
+    #setaDireita{
+        margin-top:26% ;
+        width:62px
+        
+    }
+   
+}
+@media(max-width:780px){
+
+    #tituloCarrossel{
+        font-size:20px;
+    }
+
+   .card{
+        /* width:290px */
+        width:275px;
+
+    }
+   
+   
+    #setaEsquerda{
+        width:16px; 
+        
+    }
+    #setaDireita{
+        
+        width:67px
+        
+        
+    }
+
+}
+@media(max-width:680px){
+    .card{
+        width:231px;
+    }
+
+
+    #setaEsquerda{
+        width:14px; 
+    }
+    #setaDireita{
+        width:57px
+    }
+
+}
+@media(max-width:570px){
+    .card{
+        width:131px;
+    }
+
+
+    #setaEsquerda{
+        width:11px;
+         
+    }
+    #setaDireita{
+        width:36px
+    }
+
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:ital,opsz,wght@0,
+    14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;800&display=swap" rel="stylesheet">  <!--link google fonts-->
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposividadeCabecalho.css">
+    <link rel="stylesheet" href="resposividadeInformacao.css">
+    <link rel="stylesheet" href="resposividadeInformacaoII.css">
+    <link rel="stylesheet" href="resposividadecarrossel.css">
+    <link rel="stylesheet" href="resposividadeFormulario.css">
+    <title>landig-page</title>
+
+</head>
+
+
+<body>
+<!-- MENU SUPERIOR -->
+
+    <div id="cabecalho">
+
+        <a id="linklogo" href="https://www.escoladnc.com.br/profissoes-dados/cientista-de-dados"> <img id="logo" src="PASTAIMAG/imagemLogo.svg" alt="logo"></a>
+   
+        <h1 id="titulo1">Dê os primeiros passos da <br> 
+           sua carreira em Tecnologia</h1>
+        <p id="texto1">Inscreva-se no curso gratuito de Introdução à <br> 
+           Tecnologia da DNC School e aprenda os principais <br> 
+           fundamentos para construir experiências efetivas.</p>
+   
+
+    </div>
+    
+
+    <!-- MENU INFORMATIVO -->
+
+    <div id="informacao">
+        
+        
+        <p class="palavras"> <img src="PASTAIMAG/icone1.svg" alt="icone1" class="icone" > Certificado de conclusão </p>
+        
+        <p class="palavras"> <img src="PASTAIMAG/icone2.svg" alt="icone2" class="icone"> 4 horas de conteúdo </p>
+        
+        <p class="palavras"> <img src="PASTAIMAG/icone3.svg" alt="icone3" class="icone"> Aulas online gravadas </p>
+
+   </div>
+
+   <!-- MENU VIDEO INFORMATIVO II -->
+
+   <div id="informacaoII">
+
+    
+
+   <!-- AQUI TEMOS UM VIDEO DO YOUTUBE.COM UM CÓDIGO DE INCORPORAÇÃO.QUE PODE SER AUTERADO O SEU width e o height -->
+        <iframe id="video" width="502" height="283"  
+        src="https://www.youtube.com/embed/ITxGkd9h4n4" 
+        title="DNC - A escola inovadora que forma profissionais de alta perfomance" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+
+    
+
+    <div id="conteudo">
+
+        <h1 id="titulo2">Aprenda com especialistas e <br>
+            comece seu primeiro projeto <br><br>
+        </h1>
+
+        <p id="texto2">
+            Conheça o processo de desenvolvimento e entenda como utilizar <br>
+            os principais métodos e ferramentas da área para resolver <br>
+            problemas complexos. <br><br>
+
+            Conquiste seu certificado e desenvolva um projeto prático para <br>
+            aplicar seus conhecimentos.
+
+        </p>
+
+    </div>
+
+</div>
+   
+ <!--MENU CARROSSEL-->
+   
+    <div id="carrossel">
+
+        <h1 id="tituloCarrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+
+        <div id="cards">
+
+        <img class="seta" onclick="movieEsquerda()" id="setaEsquerda" src="PASTAIMAG/setaESQUERDA.svg"  alt="seta">
+        <img class="card" id="cardBruna" src="PASTAIMAG/CardBRUNA.svg" alt="card">
+        <img class="card" id="cardLeonardo" src="PASTAIMAG/CardLEONARDO.svg" alt="card">
+        <img class="card" id="cardSamantha" src="PASTAIMAG/CardSAMANTHA.svg" alt="card">
+        <img class="seta" onclick="movieDireira()" id="setaDireita" src= "PASTAIMAG/setaDIREITA.svg"  alt="seta">
+
+        </div>
+        
+        
+    </div>
+     <!--MENU FORMULARIO-->
+
+    <div id="formulario">
+
+        <h1 id="tituloForm">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+
+        <form action="https://formspree.io/f/xrbgvjdd" method="POST">
+
+            
+               <input type="text" name="name" placeholder="NOME" class="form"><br><br>
+               <input type="email" name="email" placeholder="E-MAIL" class="form"><br><br>
+               <input type="nunber" name="number" placeholder="TELEFONE" class="form"><br><br>
+              <button  type="submit" id="botao"  >  Acesse a ementa grátis </button >
+            
+      
+            
+        </form>
+
+    </div>
+        
+   
+  
+ <script src="scrip.js"></script>   
+</body>
+</html>
